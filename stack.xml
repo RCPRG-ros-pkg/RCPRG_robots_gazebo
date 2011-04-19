@@ -1,0 +1,15 @@
+<stack>
+  <description brief="RCPRG_robots_gazebo">RCPRG_robots_gazebo</description>
+  <author>Maintained by Maciej Stefanczyk</author>
+  <license>BSD,</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/RCPRG_robots_gazebo</url>
+  <depend stack="elektron_robot" /> <!-- elektron_defs -->
+  <depend stack="geometry" /> <!-- tf -->
+  <depend stack="navigation" /> <!-- move_base, fake_localization -->
+  <depend stack="robot_model" /> <!-- robot_state_publisher -->
+  <depend stack="ros" />
+  <depend stack="ros_comm" /> <!-- std_msgs -->
+  <depend stack="simulator_gazebo" /> <!-- gazebo_plugins, gazebo_worlds -->
+
+</stack>
